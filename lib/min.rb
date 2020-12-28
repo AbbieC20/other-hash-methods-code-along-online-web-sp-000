@@ -9,6 +9,6 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  groceries.char.sort.join
+  groceries.chars.sort.join
   return groceries[0]
 end
