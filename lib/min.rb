@@ -9,5 +9,6 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  groceries.each do |section, groceries|
+  groceries.chars.sort.join
+  return groceries[0]  
 end
