@@ -9,6 +9,5 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries[:dairy]
-  return groceries
+  puts groceries.values
 end
